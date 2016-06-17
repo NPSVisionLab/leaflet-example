@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-basics",
+  "version": "0.0.0",
+  "description": "\"introduction to leaflet with browserify\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "beefy app.js:bundle.js --live -p8080",
+    "bundle": "browserify app.js -o bundle.js"
+  },
+  "keywords": [
+    "leaflet"
+  ],
+  "author": "tomb",
+  "license": "MIT",
+  "dependencies": {
+    "geojson-vt": "^2.1.8",
+    "leaflet": "^0.7.7",
+    "leaflet-pip": "^0.1.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.6",
+    "browserify": "^13.0.1"
+  }
+}

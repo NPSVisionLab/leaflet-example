@@ -1,0 +1,42 @@
+Driver: GTiff/GeoTIFF
+Files: /work/trbatcha/big_sat/default/default10FEB14184906-P1BS-052665587090_01_P005.TIF
+Size is 34990, 29120
+Coordinate System is `'
+GCP Projection = 
+GEOGCS["WGS 84",
+    DATUM["WGS_1984",
+        SPHEROID["WGS 84",6378137,298.257223563,
+            AUTHORITY["EPSG","7030"]],
+        AUTHORITY["EPSG","6326"]],
+    PRIMEM["Greenwich",0],
+    UNIT["degree",0.0174532925199433],
+    AUTHORITY["EPSG","4326"]]
+GCP[  0]: Id=1, Info=
+          (0.5,0.5) -> (-117.186767353706,32.5385291729546,0)
+GCP[  1]: Id=2, Info=
+          (34989.5,0.5) -> (-117.000040001465,32.5458947304136,0)
+GCP[  2]: Id=3, Info=
+          (34989.5,29119.5) -> (-117.001168892044,32.4139566695851,0)
+GCP[  3]: Id=4, Info=
+          (0.5,29119.5) -> (-117.187168095538,32.4071330268787,0)
+Metadata:
+  AREA_OR_POINT=Area
+  TIFFTAG_COPYRIGHT=(C) COPYRIGHT 2012 DigitalGlobe, Inc., Longmont CO USA 80503
+  TIFFTAG_DATETIME=2012:02:06 19:06:29
+  TIFFTAG_IMAGEDESCRIPTION={
+  bandList = 
+  [
+    1;
+  ]
+}
+  TIFFTAG_MAXSAMPLEVALUE=2047
+  TIFFTAG_MINSAMPLEVALUE=1
+Image Structure Metadata:
+  INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left  (    0.0,    0.0)
+Lower Left  (    0.0,29120.0)
+Upper Right (34990.0,    0.0)
+Lower Right (34990.0,29120.0)
+Center      (17495.0,14560.0)
+Band 1 Block=34990x14 Type=UInt16, ColorInterp=Gray
